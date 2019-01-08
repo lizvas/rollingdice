@@ -2,7 +2,7 @@ var diceResults = []
 
 function  dice(numberOfDice) {
   var diceResults = []
-  for (var i = 0; i >= numberOfDice; i++) {
+  for (var i = 0; i < numberOfDice; i++) {
     var diceRoll = Math.ceil (Math.random()*6)
     diceResults.push(diceRoll)
   }
