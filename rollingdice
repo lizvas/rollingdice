@@ -1,5 +1,3 @@
-var diceResults = []
-
 function  dice(numberOfDice) {
   var diceResults = []
   for (var i = 0; i < numberOfDice; i++) {
